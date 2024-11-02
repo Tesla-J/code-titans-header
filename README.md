@@ -1,10 +1,10 @@
-# **42 Header**
-
-42 (Paris)
+# **Code Titans Header**
 
 ### **Description**
 
-42 standard header for vim editor.
+Code Titans standard header for vim editor.
+
+**Note: this readme is outdated**
 
 ![42 header](img/42header.jpg)
 
