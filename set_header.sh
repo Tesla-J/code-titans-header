@@ -5,7 +5,7 @@
 
 if [ ! -z "$USER" ]
 then
-    echo "USER=`/usr/bin/whoami`" >> ~/.zshrc
+    echo "USER=`/usr/bin/git config user.name`" >> ~/.zshrc
     echo "export USER" >> ~/.zshrc
 fi
 
@@ -17,7 +17,7 @@ fi
 
 if [ ! -z "$MAIL" ]
 then
-    echo "MAIL="$USER@student.42.fr"" >> ~/.zshrc
+    echo "MAIL=`/usr/bin/git config user.email`" >> ~/.zshrc
     echo "export MAIL" >> ~/.zshrc
 fi
 
