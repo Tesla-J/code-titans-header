@@ -2,7 +2,7 @@
 
 ### **Description**
 
-Code Titans standard header for vim editor.
+Code Titans standard header for vim and nvim editors.
 It takes username and email from git configurations.
 
 ![Code Titans header](img/ctheader.png)
@@ -14,16 +14,18 @@ manager. Then set the user and mail variables as explained below.
 
 #### Option 1: export USER and MAIL in your shell configuration file
 
-Add in `~/.zshrc` your:
+Add in `~/.bashrc` (if you use bash) or `~/.zshrc` (if you use zsh) your:
 
 + `USER`
 + `MAIL`
 
 #### Option 2: set user and mail values directly in your vimrc
 
+This is a fork of 42 stdheader plugin, these instructions still valid
+
 ```vim
-let g:user42 = 'yourLogin'
-let g:mail42 = 'yourLogin@student.42.fr'
+let g:user42 = 'name'
+let g:mail42 = 'yourLogin@domain.ao'
 ```
 
 ### **Usage**
@@ -36,16 +38,13 @@ For **Terminator**, right click -> Preferences -> Shortcuts -> change help with 
 
 ### **Note**
 
-Inside the **42 clusters** you can easily run:
+You can run the script bellow to easily setup the plugin. If you do not use **bash**, modify the value of the `SHRC` variable in the script with the path of your shell configuration file.
 
 `$ ./set_header.sh`
 
 ### **Credits**
 
-[@zazard](https://github.com/zazard) - creator  
-[@alexandregv](https://github.com/alexandregv) - contributor  
-[@mjacq42](https://github.com/mjacq42) - contributor  
-[@sungmcho](https://github.com/lordtomi0325) - contributor  
+[Original repository](https://github.com/42Paris/42header)
 
 ### **License**
 
