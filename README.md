@@ -3,10 +3,9 @@
 ### **Description**
 
 Code Titans standard header for vim editor.
+It takes username and email from git configurations.
 
-**Note: this readme is outdated**
-
-![42 header](img/42header.jpg)
+![Code Titans header](img/ctheader.png)
 
 ### **UNIX Setup**
 
